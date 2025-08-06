@@ -26,6 +26,10 @@ Replies go back to info@smt.plusoasis.com, not an official IDFC domain.
 ![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/793a1105a7691bd50756c6e4dbd7d0fcb7c06f8a/Screenshot%202025-08-06%20154426.png)
 **Result:** Pass (p=none)	
 - No enforcement allows spoofing. Legit banks use p=quarantine or p=reject.
+# SPF
+![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/4a12b825d890d400da5f720c01a6e0a5151cdd4d/Screenshot%202025-08-06%20154534.png)
+**Result** Pass	
+- But for ft.openstackmail.com, not IDFC. Legit banks use their own SPF.
 
 
 
