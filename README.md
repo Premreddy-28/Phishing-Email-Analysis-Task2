@@ -1,5 +1,6 @@
 # Phishing-Email-Analysis-Task2
 Analysis of a phishing email impersonating IDFC FIRST Bank. Includes header inspection, domain spoofing evidence, and security protocol breakdown (SPF/DKIM/DMARC). Demonstrates email threat detection techniques  
+# Phishing E-mail of IDFC First Bank
 
 ![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/48e870cd2e68d7c8f13f94b2d742dcc938cfd9ff/Screenshot%202025-08-06%20094709.png)
 ![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/3b96071b2603da77953227adda0332ad10282071/Screenshot%202025-08-06%20094728.png)
@@ -28,11 +29,14 @@ Replies go back to info@smt.plusoasis.com, not an official IDFC domain.
 - No enforcement allows spoofing. Legit banks use p=quarantine or p=reject.
 # SPF
 ![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/4a12b825d890d400da5f720c01a6e0a5151cdd4d/Screenshot%202025-08-06%20154534.png)
-**Result** Pass	
+**Result:** Pass	
 - But for ft.openstackmail.com, not IDFC. Legit banks use their own SPF.
 # DKIM
 ![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/b83810a94f755cc0ece1abac6e43e9dabd67e87e/Screenshot%202025-08-06%20154638.png)  
-**Result** Pass	
+![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/264a592c435f60059c499b4f4ce607f01233b6da/Screenshot%202025-08-06%20154659.png)
+**Result:** Pass	
 - Signed by smt.plusoasis.com (fraudulent domain).
+# Conclusion: 
+This phishing email impersonates IDFC FIRST Bank using a fake domain (smt.plusoasis.com) and manipulates SPF/DKIM checks. Key red flags include generic greetings ("Hi Sir"), urgency tactics, and suspicious unsubscribe links. While security protocols appear valid, they're misconfigured to bypass detection. Always verify unexpected bank communications through official channels.
 
 
