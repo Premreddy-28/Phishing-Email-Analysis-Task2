@@ -1,6 +1,6 @@
 # Phishing-Email-Analysis-Task2
 Analysis of a phishing email impersonating IDFC FIRST Bank. Includes header inspection, domain spoofing evidence, and security protocol breakdown (SPF/DKIM/DMARC). Demonstrates email threat detection techniques  
-![image alt] https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/94203d35cf95c8e9cec85b147b2b65040c563c3d/Screenshot%202025-08-06%20094709.png
+![image alt](
 
 **1. Suspicious Sender Domain**
 Claimed Sender is "IDFC FIRST Bank" but Actual Domain is smt.plusoasis.com. Legitimate banks use their official domain (e.g., @idfcfirstbank.com).plusoasis.com is unrelated to IDFC and appears fraudulent.  
