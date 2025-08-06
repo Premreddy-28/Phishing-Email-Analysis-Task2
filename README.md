@@ -20,7 +20,12 @@ Mailed-by is ft.openstackmail.com (third-party service) and Signed-by is smt.plu
 "Just one step left" pressures the recipient to act quickly (common in phishing).
 
 **6. Reply-to Address**
-Replies go back to info@smt.plusoasis.com, not an official IDFC domain.
+Replies go back to info@smt.plusoasis.com, not an official IDFC domain.    
+
+# DMARC  
+![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/793a1105a7691bd50756c6e4dbd7d0fcb7c06f8a/Screenshot%202025-08-06%20154426.png)
+**Result:** Pass (p=none)	
+- No enforcement allows spoofing. Legit banks use p=quarantine or p=reject.
 
 
 
