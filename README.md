@@ -30,6 +30,9 @@ Replies go back to info@smt.plusoasis.com, not an official IDFC domain.
 ![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/4a12b825d890d400da5f720c01a6e0a5151cdd4d/Screenshot%202025-08-06%20154534.png)
 **Result** Pass	
 - But for ft.openstackmail.com, not IDFC. Legit banks use their own SPF.
-
+# DKIM
+![image alt](https://github.com/Premreddy-28/Phishing-Email-Analysis-Task2/blob/b83810a94f755cc0ece1abac6e43e9dabd67e87e/Screenshot%202025-08-06%20154638.png)  
+**Result** Pass	
+- Signed by smt.plusoasis.com (fraudulent domain).
 
 
